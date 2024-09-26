@@ -10,8 +10,6 @@ A machine learning-powered tool that predicts the outcome and expected score of 
 - [Data](#data)
 - [Example](#example)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Predict the winner between two college football teams.
@@ -80,6 +78,9 @@ To predict a game between **Alabama (SEC)** and **Tennessee (SEC)**:
 ```bash
 .
 ├── archive/                     # Folder containing historical CSV data for each year
+├── prevVersions/                # Folder containing previous versions of scripts
+│   ├── cfbOriginal.py           # Original version of the football predictor
+│   ├── cfbPicker.py             # Previous version of the picker script
 ├── cfb_gui.py                   # Main Python file to launch the GUI
 ├── cfb_model.py                 # Core machine learning logic and predictions
 ├── requirements.txt             # Python dependencies
