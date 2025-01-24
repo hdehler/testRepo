@@ -1,5 +1,7 @@
 # College Football Game Predictor
 
+![College Football Prediction Model](predictionModel.png)
+
 A machine learning-powered tool that predicts the outcome and expected score of college football games using historical data and team statistics. The predictor uses a Random Forest Classifier to determine the winner between two teams and provides an estimated point differential based on key features such as offensive and defensive performance, turnover margin, and home-field advantage.
 
 ## Table of Contents
